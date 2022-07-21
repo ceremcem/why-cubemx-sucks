@@ -9,3 +9,4 @@
 7. When you can't perform a very specific configuration within the CubeMX (like a specific DMA configuration) half of your hardware configuration lies in CubeMX and the other lies within the code. You can't examine the whole configuration by the CubeMX in such situations.
 8. STM HAL is buggy.
 9. STM HAL is mostly undocumented.
+10. Changing a named `GPIO_Input` to `GPIO_EXTIxx` erases the input's label/name. 
